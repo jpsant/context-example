@@ -1,0 +1,9 @@
+query {
+  Currency {
+    name
+    code
+    countries {
+      name
+    }
+  }
+}

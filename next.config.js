@@ -16,7 +16,7 @@ module.exports = withPlugins(
             test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif|graphql|gql)$/,
             exclude: /node_modules/,
             use: {
-              loader: 'url-loader',
+              loader: 'graphql-tag/loader',
               options: {
                 name: '[name].[ext]'
               }
